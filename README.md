@@ -74,3 +74,10 @@ Ensure they remain in `data/` with headers intact (drop `id` column handled in c
 - Manual override heuristics in the UI flag certain traffic patterns before ML prediction (see [app.py](app.py)).
 - Batch upload accepts CSV with the same schema as training/testing data.
 - Plots (distribution, correlation, confusion matrix, feature importance) are auto-generated to `plots/`.
+ 
+## Screenshot
+<img width="1906" height="904" alt="image" src="https://github.com/user-attachments/assets/470953dc-78b2-47b2-84e7-0f695d98bbec" />
+<img width="1897" height="876" alt="image" src="https://github.com/user-attachments/assets/90d091c2-0f01-4245-a177-79270c2f7a36" />
+<img width="1265" height="649" alt="image" src="https://github.com/user-attachments/assets/396011f1-704c-4f1b-9371-49d2ca131b30" />
+<img width="1377" height="781" alt="image" src="https://github.com/user-attachments/assets/53a5870a-fd4e-46ed-ae93-4ee03e21f04f" />
+
