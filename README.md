@@ -3,9 +3,9 @@
 An end-to-end, multi-class Network Intrusion Detection System built with Streamlit for interactive analysis and LightGBM for classification. The project uses the UNSW-NB15 dataset and provides both manual and batch analysis flows with heuristic overrides.
 
 ## 🚀 Features
-- Interactive dashboard and analysis UI in [app.py](app.py) with manual inspection and batch upload tabs.
-- Model training pipeline in [train_model_complete.py](train_model_complete.py) (feature engineering, encoding, scaling, LightGBM training, plotting).
-- Accuracy check and evaluation script in [checkacc.py](checkacc.py).
+- Interactive dashboard and analysis UI in app.py with manual inspection and batch upload tabs.
+- Model training pipeline in train_model_complete.py (feature engineering, encoding, scaling, LightGBM training, plotting).
+- Accuracy check and evaluation script in checkacc.py
 - Preprocessed model artifacts persisted to `model/` (encoders, scaler, trained model).
 - Plots and reports saved to `plots/`.
 - Uses frequency encoding for categorical features and a `bytes_per_sec` velocity feature for improved accuracy.
